@@ -1208,3 +1208,590 @@ Received Import Request.
 Start importing Assets/Textures/Bricks/Broken/Small/YellowSmallBrokenBrick_texture.png using Guid(dd3a6abe8bb92c945af0cdd00f55bf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb9843a90ab66666422fd92e610da64') in 0.019346 seconds 
   Import took 0.026916 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 130.448150 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3e04eb37b780732428a15d5a72b3d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3e04eb37b780732428a15d5a72b3d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc518187a362d11744d7eda552069ba9') in 0.025155 seconds 
+  Import took 0.029987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(3e04eb37b780732428a15d5a72b3d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(3e04eb37b780732428a15d5a72b3d544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc518187a362d11744d7eda552069ba9') in 0.006985 seconds 
+  Import took 0.013031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.875371 seconds.
+  path: Assets/Materials/Player
+  artifactKey: Guid(f61fd0ed72a830a4cb6e1e486c17835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player using Guid(f61fd0ed72a830a4cb6e1e486c17835f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269610febd871aa9adec222b5beeed2e') in 0.004867 seconds 
+  Import took 0.010349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.507951 seconds.
+  path: Assets/Materials/Player/Platform
+  artifactKey: Guid(a7513b2a88682be438f4e64a4d34d955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Platform using Guid(a7513b2a88682be438f4e64a4d34d955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0add02ac99f7aa332adf323b31a0d0d1') in 0.012298 seconds 
+  Import took 0.020094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.670432 seconds.
+  path: Assets/Models/Bricks/LongBrick.obj
+  artifactKey: Guid(1d0837731c4f6a149902ffc6f5b62687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/LongBrick.obj using Guid(1d0837731c4f6a149902ffc6f5b62687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e397dde8389c3f956bbc6d1d92d5633') in 0.078222 seconds 
+  Import took 0.083049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.513979 seconds.
+  path: Assets/Models/Bricks/LongBrick_model.obj
+  artifactKey: Guid(1d0837731c4f6a149902ffc6f5b62687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/LongBrick_model.obj using Guid(1d0837731c4f6a149902ffc6f5b62687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3de01504275a358502605d84610376') in 0.064122 seconds 
+  Import took 0.068411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412542 seconds.
+  path: Assets/Models/Bricks/MiddleBrick.obj
+  artifactKey: Guid(d6a7d30ae9aa02f448d6b8251abb2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/MiddleBrick.obj using Guid(d6a7d30ae9aa02f448d6b8251abb2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ca0635cb0bac3e1a2903e6fae4cdca') in 0.073687 seconds 
+  Import took 0.078198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.907582 seconds.
+  path: Assets/Models/Bricks/MiddleBrick_model.obj
+  artifactKey: Guid(d6a7d30ae9aa02f448d6b8251abb2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/MiddleBrick_model.obj using Guid(d6a7d30ae9aa02f448d6b8251abb2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7176dae6403edad99a684f89bc4cf146') in 0.062828 seconds 
+  Import took 0.067256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375063 seconds.
+  path: Assets/Models/Bricks/SmallBrick.obj
+  artifactKey: Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/SmallBrick.obj using Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25afccba7742161f9840953a736c3bc1') in 0.056342 seconds 
+  Import took 0.061545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.227353 seconds.
+  path: Assets/Models/Bricks/SmallBrick__model.obj
+  artifactKey: Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/SmallBrick__model.obj using Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5108cd9c362243527984597c2d4a5c45') in 0.063058 seconds 
+  Import took 0.067037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.574401 seconds.
+  path: Assets/Models/Bricks/Broken/LongBrokenBrick.obj
+  artifactKey: Guid(2f67de68023982547b3597eea9562f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/LongBrokenBrick.obj using Guid(2f67de68023982547b3597eea9562f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd273b35cbd9beeed32229b436829dd6') in 0.061457 seconds 
+  Import took 0.066366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.337224 seconds.
+  path: Assets/Models/Bricks/Broken/LongBrokenBrick_model.obj
+  artifactKey: Guid(2f67de68023982547b3597eea9562f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/LongBrokenBrick_model.obj using Guid(2f67de68023982547b3597eea9562f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c032fe47b4dafc6afde95237905b9168') in 0.062732 seconds 
+  Import took 0.067899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331313 seconds.
+  path: Assets/Models/Bricks/Broken/MiddleBrokenBrick.obj
+  artifactKey: Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/MiddleBrokenBrick.obj using Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172bb76e88a8ce9ace91795b798375ad') in 0.058319 seconds 
+  Import took 0.064280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.025549 seconds.
+  path: Assets/Models/Bricks/Broken/MiddleBrokenBrick__model.obj
+  artifactKey: Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/MiddleBrokenBrick__model.obj using Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3c82423d639b95f10f01205d66c684') in 0.079263 seconds 
+  Import took 0.083709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325662 seconds.
+  path: Assets/Models/Bricks/Broken/SmallBrokenBrick.obj
+  artifactKey: Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/SmallBrokenBrick.obj using Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f77a1f87bca4bd3efebd45bd72b11') in 0.063497 seconds 
+  Import took 0.069258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.908820 seconds.
+  path: Assets/Models/Bricks/Broken/SmallBrokenBrick__model.obj
+  artifactKey: Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/SmallBrokenBrick__model.obj using Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e31ae6c92b1d91c77302d88c05a3cd') in 0.060580 seconds 
+  Import took 0.067196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.798296 seconds.
+  path: Assets/Models/Bricks/Broken/SmallBrokenBrick_model.obj
+  artifactKey: Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/SmallBrokenBrick_model.obj using Guid(ff37d6332966bd14b95b3eda65bb0d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68deb930dd13e3798116ac0184852628') in 0.057340 seconds 
+  Import took 0.064392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091083 seconds.
+  path: Assets/Models/Bricks/Broken/MiddleBrokenBrick_model.obj
+  artifactKey: Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/Broken/MiddleBrokenBrick_model.obj using Guid(5d85d06010bbdf94f84f374009cd62d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06236d28b4b9c96d6cc4d5874ce57e64') in 0.065858 seconds 
+  Import took 0.071179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.364186 seconds.
+  path: Assets/Models/Bricks/SmallBrick_model.obj
+  artifactKey: Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bricks/SmallBrick_model.obj using Guid(5c609fa11ec26984a8d149a32bf70ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333970dde3ebdbaaac5d4df27c6fed49') in 0.062795 seconds 
+  Import took 0.067549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.909609 seconds.
+  path: Assets/Models/GameZone/GameZone_model.obj
+  artifactKey: Guid(06c6482b82f6fbb468c400f8e0e61b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GameZone/GameZone_model.obj using Guid(06c6482b82f6fbb468c400f8e0e61b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e936612fa9f6570428dbc16b0b695909') in 0.075823 seconds 
+  Import took 0.082805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091405 seconds.
+  path: Assets/Models/Player/Ball/WhitePlayerBall.obj
+  artifactKey: Guid(d19fd61c04b39284480cc04deb86fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player/Ball/WhitePlayerBall.obj using Guid(d19fd61c04b39284480cc04deb86fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf386ad6128109e8b073abc09eb1b796') in 0.053181 seconds 
+  Import took 0.057750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.895825 seconds.
+  path: Assets/Models/Player/Ball/WhitePlayerBall_model.obj
+  artifactKey: Guid(d19fd61c04b39284480cc04deb86fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player/Ball/WhitePlayerBall_model.obj using Guid(d19fd61c04b39284480cc04deb86fd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557d9e9a454188c7a7e9e0e1c1b98528') in 0.079945 seconds 
+  Import took 0.085948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.070243 seconds.
+  path: Assets/Models/Player/Platform/WhitePlayerPlatform.obj
+  artifactKey: Guid(0a1aefc6507f98542996539b29bfdde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player/Platform/WhitePlayerPlatform.obj using Guid(0a1aefc6507f98542996539b29bfdde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29211f2665e92008506bc6968b9d417') in 0.061339 seconds 
+  Import took 0.066873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382171 seconds.
+  path: Assets/Models/Player/Platform/WhitePlayerPlatform_model.obj
+  artifactKey: Guid(0a1aefc6507f98542996539b29bfdde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player/Platform/WhitePlayerPlatform_model.obj using Guid(0a1aefc6507f98542996539b29bfdde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e55ca9619bcd4541325b5d0ad4b412') in 0.060171 seconds 
+  Import took 0.065124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.155962 seconds.
+  path: Assets/Textures/Player/Platform/WhitePlayerPlatform_texture.png
+  artifactKey: Guid(73ff9294580e6334eb8ed8cf6e211644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Player/Platform/WhitePlayerPlatform_texture.png using Guid(73ff9294580e6334eb8ed8cf6e211644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afd91be8b9e9de06a5c3ad345b58476') in 0.018210 seconds 
+  Import took 0.022984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.643782 seconds.
+  path: Assets/Materials/Brick
+  artifactKey: Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brick using Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66cc5f65a7ed286d117771c2bc5d5c8') in 0.017953 seconds 
+  Import took 0.024430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010691 seconds.
+  path: Assets/Materials/Brick
+  artifactKey: Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brick using Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66cc5f65a7ed286d117771c2bc5d5c8') in 0.004642 seconds 
+  Import took 0.011762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.476030 seconds.
+  path: Assets/Materials/Bricks
+  artifactKey: Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bricks using Guid(4aed868efe8d34c409316c8ed270f1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559efc379de16150902680e78afebc17') in 0.003881 seconds 
+  Import took 0.008862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.607568 seconds.
+  path: Assets/Textures/Bricks/Long/GreenLongBrick_texture.png
+  artifactKey: Guid(add0d6b341c3b56448b923252c6eddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Long/GreenLongBrick_texture.png using Guid(add0d6b341c3b56448b923252c6eddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab16e7818088ac19bc3a727322a82a6d') in 0.040346 seconds 
+  Import took 0.057518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Textures/Bricks/Small/YellowSmallBrick_texture.png
+  artifactKey: Guid(15bcf1494d9ddf842a654bd2c610915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Small/YellowSmallBrick_texture.png using Guid(15bcf1494d9ddf842a654bd2c610915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae5f35bbf5ef9981ff6bba2ca21ad63') in 0.016553 seconds 
+  Import took 0.021933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Textures/Bricks/Broken/Small/YellowSmallBrokenBrick_texture.png
+  artifactKey: Guid(dd3a6abe8bb92c945af0cdd00f55bf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Small/YellowSmallBrokenBrick_texture.png using Guid(dd3a6abe8bb92c945af0cdd00f55bf15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aff3c6e87070fcb12bf6fd81ea010d') in 0.028357 seconds 
+  Import took 0.033953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Textures/Bricks/Broken/Long/GreenLongBrokenlBrick_texture.png
+  artifactKey: Guid(e1891e653d90b24499db1f55f180936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Long/GreenLongBrokenlBrick_texture.png using Guid(e1891e653d90b24499db1f55f180936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97675f7e49c67dde9c9378c0b2e91f9') in 0.019658 seconds 
+  Import took 0.025663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Textures/Bricks/Middle/PurpleMiddleBrick_texture.png
+  artifactKey: Guid(623e60e905e642f4ba17afc56cba1b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Middle/PurpleMiddleBrick_texture.png using Guid(623e60e905e642f4ba17afc56cba1b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b1525d0f093e906dce6dd02bad355e') in 0.017625 seconds 
+  Import took 0.021779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Textures/Bricks/Broken/Middle/PurpleMiddleBrokenBrick_texture.png
+  artifactKey: Guid(56ee3239ffb185541835aff0f0df14b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Middle/PurpleMiddleBrokenBrick_texture.png using Guid(56ee3239ffb185541835aff0f0df14b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdbd985429ca9c59a8555bc293f4442') in 0.024964 seconds 
+  Import took 0.030737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Textures/Bricks/Broken/Middle/OrangeMiddleBrokenBrick_texture.png
+  artifactKey: Guid(16e0b65d96154374bb248be98494095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Middle/OrangeMiddleBrokenBrick_texture.png using Guid(16e0b65d96154374bb248be98494095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb121d1e05eff87f39d53c9f20831c') in 0.054373 seconds 
+  Import took 0.077272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Textures/Bricks/Small/OrangeSmallBrick_texture.png
+  artifactKey: Guid(943623b456d91eb4199989836bc6b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Small/OrangeSmallBrick_texture.png using Guid(943623b456d91eb4199989836bc6b672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e0c0eb4529692c571ea355c126ab5d') in 0.017813 seconds 
+  Import took 0.023826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/Bricks/Broken/Middle/GreenMiddleBrokenBrick_texture.png
+  artifactKey: Guid(5c41ea3a77187a945a9407003ca24b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Middle/GreenMiddleBrokenBrick_texture.png using Guid(5c41ea3a77187a945a9407003ca24b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269953106f27d1d7323a73f6ea58db5d') in 0.051137 seconds 
+  Import took 0.056451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001071 seconds.
+  path: Assets/Textures/Bricks/Long/PurpleLongBrick_texture.png
+  artifactKey: Guid(685894cab7a1fc046a4a645ee3b86f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Long/PurpleLongBrick_texture.png using Guid(685894cab7a1fc046a4a645ee3b86f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffa94643e8ae1e46b1eb9a0511a3a3d') in 0.022308 seconds 
+  Import took 0.028124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000967 seconds.
+  path: Assets/Textures/Bricks/Middle/GreenMiddleBrick_texture.png
+  artifactKey: Guid(bac080cefef399448a0df04c37b20402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Middle/GreenMiddleBrick_texture.png using Guid(bac080cefef399448a0df04c37b20402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b9b3653ea56d204ec5d31656914a9') in 0.023927 seconds 
+  Import took 0.032294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Textures/Bricks/Middle/YellowMiddleBrick_texture.png
+  artifactKey: Guid(58f696f3721031f4ab48f790088779a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Middle/YellowMiddleBrick_texture.png using Guid(58f696f3721031f4ab48f790088779a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9115865dc6d98fda062f5955f12aae') in 0.017066 seconds 
+  Import took 0.022392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Textures/Bricks/Broken/Long/OrangeLongBrokenBrick_texture.png
+  artifactKey: Guid(75c7918c13008044aaec68a7445f774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Long/OrangeLongBrokenBrick_texture.png using Guid(75c7918c13008044aaec68a7445f774f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa03b4bcef9e2f7cc71a2eb9e49aa653') in 0.097795 seconds 
+  Import took 0.101569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Textures/Bricks/Broken/Small/PurpleSmallBrokenBrick_texture.png
+  artifactKey: Guid(9f4ac221b934a4f44896ae00f4022380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Small/PurpleSmallBrokenBrick_texture.png using Guid(9f4ac221b934a4f44896ae00f4022380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faef082774fe5b8675aa8eb5e74520ca') in 0.016969 seconds 
+  Import took 0.023084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Textures/Bricks/Long/OrangeLongBrick_texture.png
+  artifactKey: Guid(723a28fdd9eb374449e7496b4a932fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Long/OrangeLongBrick_texture.png using Guid(723a28fdd9eb374449e7496b4a932fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7a670aa08f118033f56dcdeb353382') in 0.017315 seconds 
+  Import took 0.023083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Textures/Bricks/Long/YellowLongBrick_texture.png
+  artifactKey: Guid(fe8944acf2641d44ab73675557c10972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Long/YellowLongBrick_texture.png using Guid(fe8944acf2641d44ab73675557c10972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fd3f971b0f57c83b1caba187a66934') in 0.051076 seconds 
+  Import took 0.057370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Textures/Bricks/Small/GreenSmallBrick_texture.png
+  artifactKey: Guid(31644cc175b64d04298d52a61ce66ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Small/GreenSmallBrick_texture.png using Guid(31644cc175b64d04298d52a61ce66ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d60afaf350aa4b59a40ad63066daff') in 0.015899 seconds 
+  Import took 0.020926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/Bricks/Middle/OrangeMiddleBrick_texture.png
+  artifactKey: Guid(8534f2303bf0afa41ae225fc3c0cebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Middle/OrangeMiddleBrick_texture.png using Guid(8534f2303bf0afa41ae225fc3c0cebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191cbf21c9c619388f3304ea6d67d8cf') in 0.019257 seconds 
+  Import took 0.023631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Textures/Bricks/Broken/Small/GreenSmallBrokenBrick_texture.png
+  artifactKey: Guid(253ef98e7a9757e4986bf6aa211b0f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Small/GreenSmallBrokenBrick_texture.png using Guid(253ef98e7a9757e4986bf6aa211b0f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a048126672999356438490e7e289019') in 0.018992 seconds 
+  Import took 0.025496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Textures/Bricks/Broken/Small/OrangeSmallBrokenBrick_texture.png
+  artifactKey: Guid(65f1895b134a9b74889fb5f6e9d81146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Small/OrangeSmallBrokenBrick_texture.png using Guid(65f1895b134a9b74889fb5f6e9d81146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3783d3c43223bf49e8362068a46f37bc') in 0.017631 seconds 
+  Import took 0.023864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Textures/Bricks/Broken/Long/YellowLongBrokenBrick_texture.png
+  artifactKey: Guid(97ac05ffbb74f4f499242cd0e4153e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Long/YellowLongBrokenBrick_texture.png using Guid(97ac05ffbb74f4f499242cd0e4153e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1df496882224890fd9e17487351d83') in 0.022832 seconds 
+  Import took 0.027656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Textures/Bricks/Broken/Middle/YellowMiddleBrokenBrick_texture.png
+  artifactKey: Guid(7eae40ab12c199b4688ff6ec683e8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Middle/YellowMiddleBrokenBrick_texture.png using Guid(7eae40ab12c199b4688ff6ec683e8f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2876eeebf25f5a2de897162c0981453') in 0.016639 seconds 
+  Import took 0.022856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Textures/Bricks/Small/PurpleSmallBrick_texture.png
+  artifactKey: Guid(ff20477959699a0478f46f95b507723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Small/PurpleSmallBrick_texture.png using Guid(ff20477959699a0478f46f95b507723c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abc78942131e445d4f9ae8e74db870') in 0.023149 seconds 
+  Import took 0.028655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Textures/Bricks/Broken/Long/PurpleLongBrokenBrick_texture.png
+  artifactKey: Guid(23c8a3522ae24e949bf7e6d9939a77cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Long/PurpleLongBrokenBrick_texture.png using Guid(23c8a3522ae24e949bf7e6d9939a77cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba03f6b45141f3df0ec499de37ff2a9') in 0.021273 seconds 
+  Import took 0.026065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Textures/Player/Ball/WhitePlayerBall_texture.png
+  artifactKey: Guid(66b676d08358b76438464bdadd2a3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Player/Ball/WhitePlayerBall_texture.png using Guid(66b676d08358b76438464bdadd2a3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb49988213eeda170fc07e74322105f') in 0.021794 seconds 
+  Import took 0.030195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554417 seconds.
+  path: Assets/Textures/Bricks/Long/BlueLongBrick_texture.png
+  artifactKey: Guid(4f2fa35b675b495418b491774b8eb9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Long/BlueLongBrick_texture.png using Guid(4f2fa35b675b495418b491774b8eb9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cd4ad96a0c2fbd6dab789e7c5ae0a6') in 0.016182 seconds 
+  Import took 0.021854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Textures/GameZone/GameZone_texture.png
+  artifactKey: Guid(1d28f3008c664424995baefa0955382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GameZone/GameZone_texture.png using Guid(1d28f3008c664424995baefa0955382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdac57325f1a41380a439cefc1052b92') in 0.026405 seconds 
+  Import took 0.034049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Textures/Bricks/Broken/Middle/BlueMiddleBrokenlBrick_texture.png
+  artifactKey: Guid(8046ce7b193fa644298ae21c40d78d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Middle/BlueMiddleBrokenlBrick_texture.png using Guid(8046ce7b193fa644298ae21c40d78d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f9d8834682cd240228de8ede0ca81') in 0.068704 seconds 
+  Import took 0.076327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Textures/Bricks/Broken/Long/BlueLongBrokenlBrick_texture.png
+  artifactKey: Guid(6f39394d78f4f2449989d7d532a8c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Long/BlueLongBrokenlBrick_texture.png using Guid(6f39394d78f4f2449989d7d532a8c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6f8453607eaa82baeb0e9c94049191') in 0.022427 seconds 
+  Import took 0.026552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/Bricks/Broken/Small/BlueSmallBrokenlBrick_texture.png
+  artifactKey: Guid(79691ea2cf430b940b26a0810211a63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Broken/Small/BlueSmallBrokenlBrick_texture.png using Guid(79691ea2cf430b940b26a0810211a63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e71e680a7a13db38f619627e7c38a2') in 0.018877 seconds 
+  Import took 0.023910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Textures/Bricks/Middle/BlueMiddleBrick_texture.png
+  artifactKey: Guid(4cfe8b014eebce040b94d0996f1b83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Middle/BlueMiddleBrick_texture.png using Guid(4cfe8b014eebce040b94d0996f1b83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1690aa045fad0c194691d8a6fe263a1a') in 0.020429 seconds 
+  Import took 0.026664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Textures/Bricks/Small/BlueSmallBrick_texture.png
+  artifactKey: Guid(aedec652d195f1542a5d03984da766f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bricks/Small/BlueSmallBrick_texture.png using Guid(aedec652d195f1542a5d03984da766f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4f5f68f291aee7d9212f5d96887363') in 0.017431 seconds 
+  Import took 0.023783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 891.689426 seconds.
+  path: Assets/Materials/GameZone
+  artifactKey: Guid(2ad1fb999ae517543a9b801cb7929db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GameZone using Guid(2ad1fb999ae517543a9b801cb7929db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68760a8160734bc62baab704c57cb9ad') in 0.015711 seconds 
+  Import took 0.024380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2741.312046 seconds.
+  path: Assets/Materials/Player/Ball
+  artifactKey: Guid(5ea6b0b7eae20214eadab952463f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Ball using Guid(5ea6b0b7eae20214eadab952463f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcd75260c7cb5ba9be9342e88c02149') in 0.020285 seconds 
+  Import took 0.039432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011243 seconds.
+  path: Assets/Materials/Player/Ball
+  artifactKey: Guid(5ea6b0b7eae20214eadab952463f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player/Ball using Guid(5ea6b0b7eae20214eadab952463f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcd75260c7cb5ba9be9342e88c02149') in 0.003985 seconds 
+  Import took 0.008670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.841492 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02ac9d6849eafa94c81d4992603957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02ac9d6849eafa94c81d4992603957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4748f45b554e90c3b68ce45021dee2d1') in 0.011797 seconds 
+  Import took 0.017770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.370742 seconds.
+  path: Assets/Scripts/Camera
+  artifactKey: Guid(8bd390e05932f7b43b097d9a5c602a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera using Guid(8bd390e05932f7b43b097d9a5c602a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e632a0bdf92c6bb4c9ae5043e7bfb9ee') in 0.012976 seconds 
+  Import took 0.034231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.408652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3153ms)
+		BeginReloadAssembly (1030ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (89ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (625ms)
+		EndReloadAssembly (2017ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (759ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (750ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.5 MB.
+System memory in use after: 68.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 19.255800 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.071400 ms MarkObjects: 18.927300 ms  DeleteObjects: 0.042100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63.043109 seconds.
+  path: Assets/Scripts/Camera/CameraConstantWidth.cs
+  artifactKey: Guid(f3d405a73d0b648499712c07722ce480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Camera/CameraConstantWidth.cs using Guid(f3d405a73d0b648499712c07722ce480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff736cf034e3d74740b8a68e1662d5f8') in 0.030853 seconds 
+  Import took 0.034730 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
