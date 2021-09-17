@@ -4,22 +4,33 @@ public class PlayerPlatformMovement : MonoBehaviour
 {
     [SerializeField] private float _speedModifier = 0.01f;
     [SerializeField] private float _clampPositionX = 7f;
+    private bool _allowedMove = false;
 
     private void OnEnable()
     {
         PlayerTapInput.OnTapedToScreen += MoveTapDeltaPosition;
+        GameMusic.OnStartMusicCompleted += AllowMove;
     }
 
     private void OnDisable()
     {
         PlayerTapInput.OnTapedToScreen -= MoveTapDeltaPosition;
+        GameMusic.OnStartMusicCompleted -= AllowMove;
+    }
+
+    private void AllowMove()
+    {
+        _allowedMove = true;
     }
 
     private void MoveTapDeltaPosition(Vector3 direction)
     {
-        direction *= _speedModifier;
-        transform.position += direction;
-        ClampLocalPosition();
+        if (_allowedMove)
+        {
+            direction *= _speedModifier;
+            transform.position += direction;
+            ClampLocalPosition();
+        }
     }
 
     private void ClampLocalPosition()

@@ -5,6 +5,9 @@ public class BrickState : MonoBehaviour
     [SerializeField] private GameObject _normalModel;
     [SerializeField] private GameObject _brokenModel;
     [SerializeField] private _durabilityStates _durabilityState = _durabilityStates.Normal;
+    public delegate void Damage();
+    public static event Damage OnBrickDamaged;
+    public static event Damage OnBrickDestroyed;
 
     private void Start()
     {
@@ -25,9 +28,11 @@ public class BrickState : MonoBehaviour
                 ChangeActiveModel(_normalModel, _brokenModel);
                 break;
             case _durabilityStates.Broken:
+                OnBrickDamaged?.Invoke();
                 ChangeActiveModel(_brokenModel, _normalModel);
                 break;
             case _durabilityStates.Destroyed:
+                OnBrickDestroyed?.Invoke();
                 DestroySelf();
                 break;
             default:
