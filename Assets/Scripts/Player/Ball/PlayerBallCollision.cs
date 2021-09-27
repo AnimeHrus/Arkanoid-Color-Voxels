@@ -4,7 +4,7 @@ public class PlayerBallCollision : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.TryGetComponent<SceneController>(out SceneController scene))
+        if (collision.gameObject.TryGetComponent<SceneLoader>(out SceneLoader scene))
         {
             scene.RestartScene();
         }
