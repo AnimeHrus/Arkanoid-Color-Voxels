@@ -1,13 +1,18 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerBallMovement : MonoBehaviour
 {
-    [SerializeField] private Vector2 _launchVector2D = new Vector2(2f, 4f);
     private Rigidbody _rigidBody;
 
     private void Awake()
     {
         _rigidBody = GetComponent<Rigidbody>();
+    }
+
+    private void Start()
+    {
+        StartBall();
     }
 
     private void OnEnable()
@@ -22,6 +27,6 @@ public class PlayerBallMovement : MonoBehaviour
 
     private void StartBall()
     {
-        _rigidBody.velocity = new Vector2(Random.Range(_launchVector2D.x, _launchVector2D.y), Random.Range(_launchVector2D.x, _launchVector2D.y));
+        _rigidBody.velocity = Vector3.up * 10;
     }
 }
