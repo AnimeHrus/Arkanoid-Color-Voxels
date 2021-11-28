@@ -231,8 +231,9 @@ GameObject:
   m_Component:
   - component: {fileID: 605840427}
   - component: {fileID: 605840428}
+  - component: {fileID: 605840430}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,6 +268,20 @@ CapsuleCollider:
   m_Height: 0.5
   m_Direction: 0
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &605840430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605840426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b663ca972cdf6364c9b5fb300566c29e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedModifier: 0.004
+  clampPositionX: 1.24
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +478,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7983294859812105486, guid: 420e3f4e128ca68409741c34a9588cd8, type: 3}
   m_PrefabInstance: {fileID: 7983294859173769980}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1058478083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058478084}
+  - component: {fileID: 1058478085}
+  m_Layer: 0
+  m_Name: Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058478084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058478083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058478085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058478083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b40c86f703f82749b354d450a7ffd9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1237079177
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c85c925c767b144b7822bfff07f0f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _launchVector2D: {x: 2, y: 4}
 --- !u!1001 &3311296386848580578
 PrefabInstance:
   m_ObjectHideFlags: 0
