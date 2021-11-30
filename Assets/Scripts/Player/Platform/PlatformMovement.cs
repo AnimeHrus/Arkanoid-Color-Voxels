@@ -1,13 +1,13 @@
-using Player.Input;
+using ArkanoidColorVoxels.Input;
 using UnityEngine;
 
-namespace Player.Platform
+namespace ArkanoidColorVoxels
 {
     public class PlatformMovement : MonoBehaviour
     {
         [SerializeField] private float speedModifier = 0.004f;
-        [SerializeField] private float clampPositionX = 7f;
         
+        private const float CLAMP_POSITION_X = 1.24f;
         private bool _allowedMove = true;
 
         private void OnEnable()
@@ -39,7 +39,7 @@ namespace Player.Platform
         {
             var localPosition = transform.localPosition;
             localPosition = new Vector3(
-                Mathf.Clamp(localPosition.x, -clampPositionX, clampPositionX),
+                Mathf.Clamp(localPosition.x, -CLAMP_POSITION_X, CLAMP_POSITION_X),
                 localPosition.y,
                 localPosition.z);
             transform.localPosition = localPosition;

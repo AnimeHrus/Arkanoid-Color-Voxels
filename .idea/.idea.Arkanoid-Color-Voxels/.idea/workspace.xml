@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Border/LostZone.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="21YqSHVL44baYKOq8bJmldtIMMU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,6 +59,7 @@
       <updated>1638128413698</updated>
       <workItem from="1638128472586" duration="895000" />
       <workItem from="1638131302396" duration="1500000" />
+      <workItem from="1638249575933" duration="6808000" />
     </task>
     <servers />
   </component>

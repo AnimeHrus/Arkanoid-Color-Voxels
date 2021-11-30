@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Player.Input
+namespace ArkanoidColorVoxels.Input
 {
     public class TapInput : MonoBehaviour
     {
@@ -18,11 +18,11 @@ namespace Player.Input
         {
             if (_camera != null && UnityEngine.Input.touchCount > 0)
             {
-                GetDeltaTouch();
+                GetXDeltaTouch();
             }
         }
 
-        private static void GetDeltaTouch()
+        private static void GetXDeltaTouch()
         {
             var touch = UnityEngine.Input.GetTouch(0);
             if (touch.phase != TouchPhase.Moved) return;
