@@ -24,7 +24,7 @@ namespace ArkanoidColorVoxels
 					sceneView.camera.pixelHeight - current.mousePosition.y,
 					sceneView.camera.nearClipPlane));
 				Vector3 position = _grid.CheckPosition(point);
-				if (position != Vector3.zero)
+				if (/*position != Vector3.zero*/true)
 				{
 					if (IsEmpty(position))
 					{
@@ -50,7 +50,7 @@ namespace ArkanoidColorVoxels
 		private bool IsEmpty(Vector3 position)
 		{
 			Collider[] collider = Physics.OverlapSphere(position, 0.01f);
-			return collider == null;
+			return /*collider == null*/true;
 		}
 	}
 }
