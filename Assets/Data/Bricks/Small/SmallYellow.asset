@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9c48c4150e2aa458b5c8afb5903954, type: 3}
+  m_Name: SmallYellow
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3889306110183926229, guid: b2e0c004429fb7643b5536b7995056e8, type: 3}
+  Models:
+  - {fileID: 919132149155446097, guid: 7b4bc6a242700344f9f2da7ceaef3cbc, type: 3}
+  - {fileID: 919132149155446097, guid: 0de232430611e1d4ebd871eef4a39b88, type: 3}
+  DefaultTexture: {fileID: 2800000, guid: 15bcf1494d9ddf842a654bd2c610915b, type: 3}
+  BrockenTexture: {fileID: 2800000, guid: dd3a6abe8bb92c945af0cdd00f55bf15, type: 3}
+  Score: 15

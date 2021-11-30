@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9c48c4150e2aa458b5c8afb5903954, type: 3}
+  m_Name: LongYellow
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3853407377926887379, guid: 58f6e1ddb3eb82448bcd508b72645c71, type: 3}
+  Models:
+  - {fileID: 919132149155446097, guid: a9f60e4d6bdc19741a20d664a9d0ce79, type: 3}
+  - {fileID: 919132149155446097, guid: a6e470cec8af4cb45a81939372477033, type: 3}
+  DefaultTexture: {fileID: 2800000, guid: fe8944acf2641d44ab73675557c10972, type: 3}
+  BrockenTexture: {fileID: 2800000, guid: 97ac05ffbb74f4f499242cd0e4153e2e, type: 3}
+  Score: 50

@@ -8,7 +8,7 @@ namespace ArkanoidColorVoxels
 		{
 			if (other.gameObject.TryGetComponent(out BallMovement ball))
 			{
-				Destroy(ball.gameObject);
+				ball.Relaunch();
 			}
 		}
 	}

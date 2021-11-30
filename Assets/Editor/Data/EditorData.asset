@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28aae4fb05e8f214d91a618ce0d85b88, type: 3}
+  m_Name: EditorData
+  m_EditorClassIdentifier: 
+  BrickDatas:
+  - Texture2D: {fileID: 2800000, guid: 19dac4b98d74721489efd9bda4ce50e9, type: 3}
+    BrickData: {fileID: 11400000, guid: ecba9f2a2c9c4a7459125561b2ad1f5c, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 621d7bdf7b6db134c8cecad969ef352d, type: 3}
+    BrickData: {fileID: 11400000, guid: 93639bd859a000846acbf6e3f6ee9193, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 304a11b15445c564ab1b8e5ac8ec1c6c, type: 3}
+    BrickData: {fileID: 11400000, guid: b1618506d8412b04e8d9cc5e6c65a3ab, type: 2}
+  - Texture2D: {fileID: 2800000, guid: d524b463e76c588419f9fdcc6f0ad0bd, type: 3}
+    BrickData: {fileID: 11400000, guid: 94f033f6ff4cfc241becdfaa0c18bd52, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 4cc44ae768290854ca34a2ee21799040, type: 3}
+    BrickData: {fileID: 11400000, guid: 10793e3beecdab543a172b4118836dc0, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 9accfcb3df8421a428ab4832df13e277, type: 3}
+    BrickData: {fileID: 11400000, guid: 4e748ba4aedd03e4991b92380a9c2cc6, type: 2}
+  - Texture2D: {fileID: 2800000, guid: e06f3288843b7ec4480463e3105422da, type: 3}
+    BrickData: {fileID: 11400000, guid: c75104b20495a6f428af29f83829db5e, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 14d7daf251a3f3e4c8756c75ad20cc75, type: 3}
+    BrickData: {fileID: 11400000, guid: 4ab45b258e5ac734997021450cad8aac, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 7137e432ade713b42a672bd9c1396b12, type: 3}
+    BrickData: {fileID: 11400000, guid: 687d611337fe7b94581a12072ecd8cef, type: 2}
+  - Texture2D: {fileID: 2800000, guid: bded456761120e8438f3a03240b640b8, type: 3}
+    BrickData: {fileID: 11400000, guid: 13de2a395a364ec41b64d42a2d8467a0, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 02f3031dd9e38a342a0aab8b4981e8f3, type: 3}
+    BrickData: {fileID: 11400000, guid: 3bca64dee7e08c34bb45b42fae1e5438, type: 2}
+  - Texture2D: {fileID: 2800000, guid: 964f54c3d8b317848ad26fe1c2e35685, type: 3}
+    BrickData: {fileID: 11400000, guid: 5cdc0e81a2baf78468d0e102650ec009, type: 2}

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 namespace ArkanoidColorVoxels
@@ -5,23 +6,27 @@ namespace ArkanoidColorVoxels
     [RequireComponent(typeof(Rigidbody))]
     public class BallMovement : MonoBehaviour
     {
+        [SerializeField] private Transform gameParent;
+        [SerializeField] private Transform startPosition;
         [SerializeField] private float impulse = 1f;
         [SerializeField] private float directionMultiply = 1f;
-        
+        [SerializeField] private float relaunchDelay = 1f;
+
         private Rigidbody _rigidBody;
         private bool _isActive;
         private float _lastPositionX;
+        private WaitForSeconds _relaunchWait;
         
         private void Awake()
         {
             _rigidBody = GetComponent<Rigidbody>();
             _isActive = false;
+            _relaunchWait = new WaitForSeconds(relaunchDelay);
         }
 
         private void Start()
         {
             _rigidBody.isKinematic = true;
-            StartMove();
         }
 
         private void OnEnable()
@@ -34,12 +39,27 @@ namespace ArkanoidColorVoxels
             GameMusic.OnStartMusicCompleted -= StartMove;
         }
 
+        public void Relaunch()
+        {
+            _isActive = false;
+            _rigidBody.isKinematic = true;
+            transform.SetParent(startPosition);
+            transform.localPosition = Vector3.zero;
+            StartCoroutine(RelaunchByTime());
+        }
+
+        private IEnumerator RelaunchByTime()
+        {
+            yield return _relaunchWait;
+            StartMove();
+        }
+        
         private void StartMove()
         {
             _lastPositionX = transform.position.x;
             if (_isActive) return;
             _isActive = true;
-            transform.SetParent(null);
+            transform.SetParent(gameParent);
             _rigidBody.isKinematic = false;
             _rigidBody.AddForce(Vector3.up * impulse, ForceMode.Impulse);
         }

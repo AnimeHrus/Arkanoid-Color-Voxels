@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9c48c4150e2aa458b5c8afb5903954, type: 3}
+  m_Name: MiddleOrange
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 8034785590556994882, guid: 1b51d77ca18111446b1a8bac3e7cc915, type: 3}
+  Models:
+  - {fileID: 919132149155446097, guid: 66e62cdeaae92c9409c3c61088f4cd00, type: 3}
+  - {fileID: 919132149155446097, guid: b73cbeca6dc8a6b41bdc1a08917fb37d, type: 3}
+  DefaultTexture: {fileID: 2800000, guid: 8534f2303bf0afa41ae225fc3c0cebbd, type: 3}
+  BrockenTexture: {fileID: 2800000, guid: 16e0b65d96154374bb248be98494095b, type: 3}
+  Score: 30
