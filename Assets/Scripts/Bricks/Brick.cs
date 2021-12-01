@@ -10,9 +10,8 @@ namespace ArkanoidColorVoxels
 		[SerializeField] private int score;
 		[SerializeField] private GameObject currentModel;
 		[SerializeField] private int durability;
-		[SerializeField] private Renderer modelRenderer;
+		[SerializeField] private MeshRenderer modelRenderer;
 		[SerializeField] private Texture brockenTexture;
-
 #if UNITY_EDITOR
 		public BrickData BrickData;
 #endif
@@ -26,7 +25,7 @@ namespace ArkanoidColorVoxels
 			durability = models.Count;
 			score = brickData.Score;
 			currentModel = Instantiate(models[durability - 1], transform);
-			modelRenderer = currentModel.GetComponent<Renderer>();
+			modelRenderer = currentModel.GetComponent<MeshRenderer>();
 			modelRenderer.material.mainTexture = brickData.DefaultTexture;
 			brockenTexture = brickData.BrockenTexture;
 		}
@@ -44,7 +43,7 @@ namespace ArkanoidColorVoxels
 				OnBrickDamage?.Invoke();
 				Destroy(currentModel);
 				currentModel = Instantiate(models[durability - 1], transform);
-				modelRenderer = currentModel.GetComponent<Renderer>();
+				modelRenderer = currentModel.GetComponent<MeshRenderer>();
 				modelRenderer.material.mainTexture = brockenTexture;
 			}
 		}
