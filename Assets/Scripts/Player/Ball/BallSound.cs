@@ -12,11 +12,12 @@ namespace ArkanoidColorVoxels
 		private void Awake()
 		{
 			_audioSource = GetComponent<AudioSource>();
+			_audioSource.clip = bounceSound;
 		}
 
 		private void OnCollisionEnter()
 		{
-			_audioSource.PlayOneShot(bounceSound);
+			_audioSource.Play();
 		}
 	}
 }

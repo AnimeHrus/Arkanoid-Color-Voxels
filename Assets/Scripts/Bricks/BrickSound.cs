@@ -5,7 +5,7 @@ namespace ArkanoidColorVoxels
 	[RequireComponent(typeof(AudioSource))]
 	public class BrickSound : MonoBehaviour
 	{
-		[SerializeField] private AudioClip brockenSound;
+		[SerializeField] private AudioClip damageSound;
 		[SerializeField] private AudioClip destroySound;
 		
 		private AudioSource _audioSource;
@@ -13,28 +13,31 @@ namespace ArkanoidColorVoxels
 		private void Awake()
 		{
 			_audioSource = GetComponent<AudioSource>();
+			_audioSource.clip = damageSound;
 		}
 
 		private void OnEnable()
 		{
-			Brick.OnBrickDamage += PlayBrockenSound;
+			Brick.OnBrickDamage += PlayDamageSound;
 			Brick.OnBrickDestroy += PlayDestroySound;
 		}
 
 		private void OnDisable()
 		{
-			Brick.OnBrickDamage -= PlayBrockenSound;
+			Brick.OnBrickDamage -= PlayDamageSound;
 			Brick.OnBrickDestroy -= PlayDestroySound;
 		}
-
-		private void PlayBrockenSound()
+		
+		private void PlayDamageSound()
 		{
-			_audioSource.PlayOneShot(brockenSound);
+			_audioSource.clip = damageSound;
+			_audioSource.Play();
 		}
-
+		
 		private void PlayDestroySound()
 		{
-			_audioSource.PlayOneShot(destroySound);
+			_audioSource.clip = destroySound;
+			_audioSource.Play();
 		}
 	}
 }

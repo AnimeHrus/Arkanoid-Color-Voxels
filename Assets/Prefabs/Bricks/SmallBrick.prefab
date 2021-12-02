@@ -57,4 +57,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c226744db4bfd4fba77637aabeb553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  models: []
+  score: 0
+  currentModel: {fileID: 0}
+  durability: 0
+  modelRenderer: {fileID: 0}
+  brockenTexture: {fileID: 0}
   BrickData: {fileID: 0}

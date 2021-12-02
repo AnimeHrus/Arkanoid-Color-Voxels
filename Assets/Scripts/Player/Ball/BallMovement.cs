@@ -6,6 +6,7 @@ namespace ArkanoidColorVoxels
     [RequireComponent(typeof(Rigidbody))]
     public class BallMovement : MonoBehaviour
     {
+        [SerializeField] private GameObject visual;
         [SerializeField] private Transform gameParent;
         [SerializeField] private Transform startPosition;
         [SerializeField] private float impulse = 1f;
@@ -13,6 +14,8 @@ namespace ArkanoidColorVoxels
         [SerializeField] private float relaunchDelay = 1f;
 
         private Rigidbody _rigidBody;
+        private SphereCollider _collider;
+        private TrailRenderer _trail;
         private bool _isActive;
         private float _lastPositionX;
         private WaitForSeconds _relaunchWait;
@@ -20,13 +23,10 @@ namespace ArkanoidColorVoxels
         private void Awake()
         {
             _rigidBody = GetComponent<Rigidbody>();
+            _collider = GetComponent<SphereCollider>();
+            _trail = GetComponent<TrailRenderer>();
             _isActive = false;
             _relaunchWait = new WaitForSeconds(relaunchDelay);
-        }
-
-        private void Start()
-        {
-            _rigidBody.isKinematic = true;
         }
 
         private void OnEnable()
@@ -41,26 +41,39 @@ namespace ArkanoidColorVoxels
 
         public void Relaunch()
         {
-            _isActive = false;
-            _rigidBody.isKinematic = true;
-            transform.SetParent(startPosition);
-            transform.localPosition = Vector3.zero;
             StartCoroutine(RelaunchByTime());
         }
 
         private IEnumerator RelaunchByTime()
         {
+            _isActive = false;
+            visual.SetActive(false);
+            _collider.enabled = false;
+            _rigidBody.isKinematic = true;
+            _trail.enabled = false;
+            transform.SetParent(startPosition);
+            transform.localPosition = Vector3.zero;
             yield return _relaunchWait;
-            StartMove();
+            visual.SetActive(true);
+            yield return _relaunchWait;
+            _isActive = true;
+            _lastPositionX = transform.position.x;
+            transform.SetParent(gameParent);
+            _collider.enabled = true;
+            _rigidBody.isKinematic = false;
+            _trail.enabled = true;
+            _rigidBody.AddForce(Vector3.down * impulse, ForceMode.Impulse);
         }
         
         private void StartMove()
         {
-            _lastPositionX = transform.position.x;
             if (_isActive) return;
             _isActive = true;
+            _lastPositionX = transform.position.x;
             transform.SetParent(gameParent);
+            _collider.enabled = true;
             _rigidBody.isKinematic = false;
+            _trail.enabled = true;
             _rigidBody.AddForce(Vector3.up * impulse, ForceMode.Impulse);
         }
         

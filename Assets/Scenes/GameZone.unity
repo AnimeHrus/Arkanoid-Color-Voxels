@@ -2242,7 +2242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42167e9f3051f6f4b91cdf70bf71fbaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brockenSound: {fileID: 8300000, guid: 90adbcf50f3e78a4883ae3cf59830365, type: 3}
+  damageSound: {fileID: 8300000, guid: 90adbcf50f3e78a4883ae3cf59830365, type: 3}
   destroySound: {fileID: 8300000, guid: f0f53f432db972b4bb3ffbb635317c65, type: 3}
 --- !u!82 &1073016547
 AudioSource:
@@ -3973,11 +3973,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 7605715651584635604}
+    m_TransformParent: {fileID: 605840427}
     m_Modifications:
     - target: {fileID: 8303483851610860700, guid: 00872ffe5573c274eb76eb6c3723227e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8303483851610860700, guid: 00872ffe5573c274eb76eb6c3723227e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3985,7 +3985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8303483851610860700, guid: 00872ffe5573c274eb76eb6c3723227e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8303483851610860700, guid: 00872ffe5573c274eb76eb6c3723227e, type: 3}
       propertyPath: m_LocalPosition.z
