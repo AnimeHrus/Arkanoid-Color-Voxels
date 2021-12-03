@@ -21,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Scripts/SaveLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ball/BallDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ball/BallRelaunch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scriptable/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Ball/BallSound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Scripts/EditorGrid.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,7 +83,8 @@
       <workItem from="1638295586762" duration="3743000" />
       <workItem from="1638375600877" duration="2120000" />
       <workItem from="1638391324720" duration="1296000" />
-      <workItem from="1638458626666" duration="3956000" />
+      <workItem from="1638458626666" duration="4233000" />
+      <workItem from="1638511018530" duration="2591000" />
     </task>
     <servers />
   </component>

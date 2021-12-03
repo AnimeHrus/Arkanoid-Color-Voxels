@@ -6,7 +6,7 @@ namespace ArkanoidColorVoxels
 	{
 		private void OnTriggerEnter(Collider other)
 		{
-			if (other.gameObject.TryGetComponent(out BallMovement ball))
+			if (other.gameObject.TryGetComponent(out BallRelaunch ball))
 			{
 				ball.Relaunch();
 			}
