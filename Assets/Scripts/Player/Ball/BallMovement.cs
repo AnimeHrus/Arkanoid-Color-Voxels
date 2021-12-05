@@ -31,11 +31,6 @@ namespace ArkanoidColorVoxels
             {
                 return _rigidBody;
             }
-            set
-            {
-                _rigidBody.isKinematic = value;
-                _rigidBody.velocity = value.velocity;
-            }
         }
         
         public bool IsActive
@@ -66,6 +61,9 @@ namespace ArkanoidColorVoxels
         private bool _isActive;
         private float _lastPositionX;
 
+        public delegate void BallSfx();
+        public static event BallSfx OnBounce;
+
         private void Awake()
         {
             _rigidBody = GetComponent<Rigidbody>();
@@ -95,7 +93,11 @@ namespace ArkanoidColorVoxels
         private void OnCollisionEnter(Collision other)
         {
             var ballPositionX = transform.position.x;
-            
+            if (!other.gameObject.TryGetComponent(out LostZone lostZone) && !other.gameObject.TryGetComponent(out Brick brick))
+            {
+                OnBounce?.Invoke();
+            }
+
             if (other.gameObject.TryGetComponent(out PlatformMovement platform))
             {
                 if (ballPositionX < _lastPositionX + 0.1 && ballPositionX > _lastPositionX - 0.1)

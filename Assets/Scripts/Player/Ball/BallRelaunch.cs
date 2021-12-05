@@ -14,6 +14,9 @@ namespace ArkanoidColorVoxels
 		private BallMovement _ballMovement;
 		private TrailRenderer _trail;
 
+		public delegate void BallSfx();
+		public static event BallSfx OnRelaunch;
+		
 		private void Awake()
 		{
 			_relaunchWait = new WaitForSeconds(relaunchDelay);
@@ -32,6 +35,7 @@ namespace ArkanoidColorVoxels
 			yield return _relaunchWait;
 			visual.SetActive(true);
 			_trail.enabled = true;
+			OnRelaunch?.Invoke();
 			yield return _relaunchWait;
 			PrepareToLaunch();
 			_ballMovement.RigidBody.AddForce(Vector3.down * _ballMovement.Impulse, ForceMode.Impulse);
