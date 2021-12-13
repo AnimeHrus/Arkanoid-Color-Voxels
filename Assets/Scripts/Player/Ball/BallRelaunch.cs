@@ -49,7 +49,10 @@ namespace ArkanoidColorVoxels
 			_ballMovement.RigidBody.velocity = Vector3.zero;
 			Transform transform1;
 			(transform1 = transform).SetParent(relaunchParent);
-			transform1.localPosition = Vector3.zero;
+			do
+			{
+				transform1.localPosition = Vector3.zero;
+			} while (transform1.localPosition != Vector3.zero);
 			_trail.enabled = false;
 		}
 

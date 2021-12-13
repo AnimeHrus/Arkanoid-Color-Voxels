@@ -19,6 +19,9 @@ namespace ArkanoidColorVoxels
 		public static event BrickDamage OnBrickDamage;
 		public static event BrickDamage OnBrickDestroy;
 		
+		public delegate void BrickShake(float duration, float amount);
+		public static event BrickShake OnBrickShake;
+
 		public void SetData(BrickData brickData)
 		{
 			models = brickData.Models;
@@ -36,11 +39,13 @@ namespace ArkanoidColorVoxels
 			if (durability < 1)
 			{
 				OnBrickDestroy?.Invoke();
+				OnBrickShake?.Invoke(0.1f, 0.01f);
 				Destroy(gameObject);
 			}
 			else
 			{
 				OnBrickDamage?.Invoke();
+				OnBrickShake?.Invoke(0.1f, 0.01f);
 				Destroy(currentModel);
 				currentModel = Instantiate(models[durability - 1], transform);
 				modelRenderer = currentModel.GetComponent<MeshRenderer>();
